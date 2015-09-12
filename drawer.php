@@ -62,8 +62,6 @@ function drawer_html() {
     <div id="slide-out-sidebar" class="slide-out-widget-wrapper closed" role="complementary">
       <?php dynamic_sidebar( 'slide-out-sidebar' ); ?>
     </div><!-- #Slide Out Widget -->
-  <?php else: ?>
-    <div>Hello World</div>
   <?php endif;
 }
 
