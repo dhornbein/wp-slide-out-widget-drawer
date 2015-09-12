@@ -1,4 +1,4 @@
-#slide-out-sidebar {
+.slide-out-widget-wrapper {
   position: fixed;
   top: 0;
   left: -300px;
@@ -9,16 +9,15 @@
   background-color: #fafafa;
 }
 
-#slide-out-sidebar.open { 
+.slide-out-widget-wrapper.open { 
   left:0;
   overflow-y: scroll;
   box-shadow: 0 0 15px rgba(0,0,0,0.5);
 }
 
-.admin-bar #slide-out-sidebar {padding-top:32px;}
-.slide-out-widget-wrapper {}
+.admin-bar .slide-out-widget-wrapper {padding-top:32px;}
+
 .slide-out-widget { padding:0 10px; }
-.slide-out-widget-title {}
 
 .slide-out-widget-wrapper.open  .slide-out-widget:first-child .slide-out-widget-title {
   margin-top:0;
