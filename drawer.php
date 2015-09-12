@@ -59,7 +59,7 @@ add_action( 'widgets_init', 'drawer_widget' );
 
 function drawer_html() {
  if ( is_active_sidebar( 'slide-out-sidebar' ) ) : ?>
-    <div id="slide-out-sidebar" class="slide-out-widget-wrapper closed" role="complementary">
+    <div id="slide-out-sidebar" class="slide-out-widget-wrapper closed" role="complementary" data-default="More">
       <?php dynamic_sidebar( 'slide-out-sidebar' ); ?>
     </div><!-- #Slide Out Widget -->
   <?php endif;
